@@ -47,6 +47,7 @@ class MegaPiController:
         self.bot.motorRun(self.mbl,-vbl)
         self.bot.motorRun(self.mbr,vbr)
 
+
     # The actual motor signal need to be tuned as well.
     # The motor signal can be larger than 50, but you may not want to go too large (e.g. 100 or -100)
     def carStop(self):
